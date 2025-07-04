@@ -1,0 +1,118 @@
+{
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "explorer.confirmDelete": false,
+    "code-runner.runInTerminal": true,
+    "explorer.confirmDragAndDrop": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "git.openRepositoryInParentFolders": "always",
+    "security.workspace.trust.untrustedFiles": "open",
+    "window.zoomLevel": 2,
+    "editor.minimap.enabled": false,
+    "editor.lineNumbers": "relative",
+    "cSpell.userWords": [
+    ],
+    "editor.rulers": [
+        80
+    ],
+    "zenMode.fullScreen": false,
+    "zenMode.centerLayout": false,
+    "zenMode.hideLineNumbers": false,
+    "zenMode.hideStatusBar": false,
+    "indentRainbow.colors": [
+        "rgba(255,255,64,0.07)",
+        "rgba(127,255,127,0.07)",
+        "rgba(255,127,255,0.07)",
+        "rgba(79,236,236,0.07)"
+    ],
+    "indentRainbow.excludedLanguages": [
+        "cpp",
+        "plaintext"
+    ],
+    "workbench.settings.useSplitJSON": true,
+    "vim.commandLineModeKeyBindings": [
+    ],
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<leader>",
+                "p",
+            ],
+            "after": [
+                "p",
+                "g",
+                "v",
+                "y",
+            ]
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<leader>",
+                "p",
+                "f",
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.quickOpen",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": [
+                "n",
+            ],
+            "after": [
+                "n",
+                "z",
+                "z",
+                "z",
+                "v",
+            ]
+        },
+        {
+            "before": [
+                "N",
+            ],
+            "after": [
+                "N",
+                "z",
+                "z",
+                "z",
+                "v",
+            ]
+        },
+        {
+            "before": [
+                "<C-d>",
+            ],
+            "after": [
+                "C-d",
+                "z",
+                "z",
+            ]
+        },
+        {
+            "before": [
+                "<C-u>",
+            ],
+            "after": [
+                "C-u",
+                "z",
+                "z",
+            ]
+        },
+    ],
+    "vim.leader": " ",
+}
